@@ -76,7 +76,8 @@ Trong nền kinh tế tri thức, "chảy máu chất xám" là cơn ác mộng 
 * **Scaling:** StandardScaler để đưa dữ liệu về phân phối chuẩn ($\mu=0, \sigma=1$).
 
 #### 1. Hàm kích hoạt – Sigmoid
-$$ g(z) = \frac{1}{1 + e^{-z}} $$
+$$ \sigma(z) = \frac{1}{1 + e^{-z}} $$
+
 Trong đó:
 - $z = \mathbf{w}^T \mathbf{x} + b$: Giá trị đầu vào tuyến tính (logit)  
   - $\mathbf{w}$: Vector trọng số của mô hình (kích thước = số feature)  
