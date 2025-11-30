@@ -285,7 +285,7 @@ def cross_val_score_custom(model, X, y, cv=5, scoring='f1', sample_weight=None):
     
     return scores, mean_score
 def print_table(data, title="KẾT QUẢ ĐÁNH GIÁ MÔ HÌNH"):
-    header = f"| {'Tên mô hình':<24}|{'Accuracy':>10}|{'Precision':>10}|{'Recall':>10}|{'F1-Score':>10}|{'AUC':>10}|"
+    header = f"| {'Model':<24}|{'Accuracy':>10}|{'Precision':>10}|{'Recall':>10}|{'F1-Score':>10}|{'AUC':>10}|"
     separator = "-" * len(header)
     
     print(f"\n{title}")
